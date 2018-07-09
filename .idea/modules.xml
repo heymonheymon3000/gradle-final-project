@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/gradle-final-project.iml" filepath="$PROJECT_DIR$/gradle-final-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/jokes-lib/jokes-lib.iml" filepath="$PROJECT_DIR$/jokes-lib/jokes-lib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jokesdatasource/jokesdatasource.iml" filepath="$PROJECT_DIR$/jokesdatasource/jokesdatasource.iml" />
     </modules>
   </component>
 </project>

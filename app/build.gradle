@@ -48,6 +48,8 @@ dependencies {
 
     testImplementation 'junit:junit:4.12'
 
-    compile project(':jokes-lib')
+    api project(':jokes-lib')
+    api project(':jokesdisplay')
+
 
 }

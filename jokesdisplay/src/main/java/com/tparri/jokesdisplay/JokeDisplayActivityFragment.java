@@ -32,8 +32,10 @@ public class JokeDisplayActivityFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         Intent intent = getActivity().getIntent();
-        String joke = intent.getStringExtra(JOKE_KEY);
-
-        jokeTextView.setText(joke);
+        if(intent.hasExtra(JOKE_KEY)) {
+            jokeTextView.setText(intent.getStringExtra(JOKE_KEY));
+        } else {
+            jokeTextView.setText("Error in retrieving joke!");
+        }
     }
 }
